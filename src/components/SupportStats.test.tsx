@@ -11,15 +11,17 @@ const mockStats = {
 }
 
 describe('SupportStats', () => {
-  it('renders total count', () => {
+  it('renders total count in context', () => {
     render(<SupportStats stats={mockStats} />)
-    expect(screen.getByText(/100 total officials/)).toBeInTheDocument()
+    // 15 of 100 officials (supportive count and total)
+    expect(screen.getByText(/15 of 100 officials/)).toBeInTheDocument()
   })
 
   it('renders support percentage', () => {
     render(<SupportStats stats={mockStats} />)
     // 15/100 = 15% supportive
-    expect(screen.getByText(/15%/)).toBeInTheDocument()
+    expect(screen.getByText('15')).toBeInTheDocument()
+    expect(screen.getByText('%')).toBeInTheDocument()
   })
 
   it('renders progress bar', () => {
@@ -29,7 +31,9 @@ describe('SupportStats', () => {
 
   it('shows breakdown of support levels', () => {
     render(<SupportStats stats={mockStats} />)
+    // Check that the stat values are displayed
     expect(screen.getByText('5')).toBeInTheDocument() // strong support
     expect(screen.getByText('10')).toBeInTheDocument() // supportive
+    expect(screen.getByText('80')).toBeInTheDocument() // unknown
   })
 })

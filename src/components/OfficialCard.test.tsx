@@ -32,7 +32,7 @@ describe('OfficialCard', () => {
 
   it('renders party affiliation', () => {
     render(<OfficialCard official={mockOfficial} />)
-    expect(screen.getByText('(D)')).toBeInTheDocument()
+    expect(screen.getByText('D')).toBeInTheDocument()
   })
 
   it('renders chamber', () => {

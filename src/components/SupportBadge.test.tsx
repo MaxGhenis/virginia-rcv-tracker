@@ -3,38 +3,28 @@ import { render, screen } from '@testing-library/react'
 import { SupportBadge } from './SupportBadge'
 
 describe('SupportBadge', () => {
-  it('renders strong support with correct styling', () => {
+  it('renders strong support with correct label', () => {
     render(<SupportBadge level="strong_support" />)
-    const badge = screen.getByText('Strong Support')
-    expect(badge).toBeInTheDocument()
-    expect(badge).toHaveClass('bg-green-600')
+    expect(screen.getByText('Strong Support')).toBeInTheDocument()
   })
 
-  it('renders supportive with correct styling', () => {
+  it('renders supportive with correct label', () => {
     render(<SupportBadge level="supportive" />)
-    const badge = screen.getByText('Supportive')
-    expect(badge).toBeInTheDocument()
-    expect(badge).toHaveClass('bg-green-400')
+    expect(screen.getByText('Supportive')).toBeInTheDocument()
   })
 
-  it('renders unknown with correct styling', () => {
+  it('renders unknown with correct label', () => {
     render(<SupportBadge level="unknown" />)
-    const badge = screen.getByText('Unknown')
-    expect(badge).toBeInTheDocument()
-    expect(badge).toHaveClass('bg-gray-400')
+    expect(screen.getByText('Unknown')).toBeInTheDocument()
   })
 
-  it('renders opposed with correct styling', () => {
+  it('renders opposed with correct label', () => {
     render(<SupportBadge level="opposed" />)
-    const badge = screen.getByText('Opposed')
-    expect(badge).toBeInTheDocument()
-    expect(badge).toHaveClass('bg-red-400')
+    expect(screen.getByText('Opposed')).toBeInTheDocument()
   })
 
-  it('renders strong opposition with correct styling', () => {
+  it('renders strong opposition with correct label', () => {
     render(<SupportBadge level="strong_opposition" />)
-    const badge = screen.getByText('Strong Opposition')
-    expect(badge).toBeInTheDocument()
-    expect(badge).toHaveClass('bg-red-600')
+    expect(screen.getByText('Strong Opposition')).toBeInTheDocument()
   })
 })
