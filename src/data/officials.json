@@ -1,0 +1,362 @@
+[
+  {
+    "id": "statewide-gov",
+    "name": "Abigail Spanberger",
+    "chamber": "statewide",
+    "party": "D",
+    "rcvSupport": "unknown",
+    "supportEvidence": [],
+    "contactInfo": {}
+  },
+  {
+    "id": "statewide-ltgov",
+    "name": "Ghazala Hashmi",
+    "chamber": "statewide",
+    "party": "D",
+    "rcvSupport": "unknown",
+    "supportEvidence": [],
+    "contactInfo": {}
+  },
+  {
+    "id": "statewide-ag",
+    "name": "Jay Jones",
+    "chamber": "statewide",
+    "party": "D",
+    "rcvSupport": "unknown",
+    "supportEvidence": [],
+    "contactInfo": {}
+  },
+  {
+    "id": "senate-30",
+    "name": "Danica Roem",
+    "chamber": "senate",
+    "district": "30",
+    "party": "D",
+    "rcvSupport": "unknown",
+    "supportEvidence": [],
+    "contactInfo": {}
+  },
+  {
+    "id": "senate-37",
+    "name": "Saddam Salim",
+    "chamber": "senate",
+    "district": "37",
+    "party": "D",
+    "rcvSupport": "strong_support",
+    "supportEvidence": [
+      {
+        "type": "bill_sponsor",
+        "date": "2025-01-10",
+        "description": "Primary patron of SB 1009 - Ranked Choice Voting",
+        "source": "https://lis.virginia.gov/cgi-bin/legp604.exe?251+sum+SB1009"
+      },
+      {
+        "type": "bill_cosponsor",
+        "date": "2024-01-08",
+        "description": "Co-patron of SB 270 - Ranked Choice Voting",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "senate-39",
+    "name": "Adam Ebbin",
+    "chamber": "senate",
+    "district": "39",
+    "party": "D",
+    "rcvSupport": "strong_support",
+    "supportEvidence": [
+      {
+        "type": "bill_cosponsor",
+        "date": "2025-01-15",
+        "description": "Co-patron of SB 1009 - Ranked Choice Voting",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "senate-16",
+    "name": "Schuyler VanValkenburg",
+    "chamber": "senate",
+    "district": "16",
+    "party": "D",
+    "rcvSupport": "strong_support",
+    "supportEvidence": [
+      {
+        "type": "bill_sponsor",
+        "date": "2024-01-10",
+        "description": "Primary patron of SB 428 - Ranked Choice Voting (vetoed)",
+        "source": "https://lis.virginia.gov"
+      },
+      {
+        "type": "vote_yes",
+        "date": "2024-02-20",
+        "description": "Voted YES on SB 428",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "senate-15",
+    "name": "Ghazala Hashmi",
+    "chamber": "senate",
+    "district": "15",
+    "party": "D",
+    "rcvSupport": "supportive",
+    "supportEvidence": [
+      {
+        "type": "vote_yes",
+        "date": "2024-02-20",
+        "description": "Voted YES on SB 428",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "senate-11",
+    "name": "Creigh Deeds",
+    "chamber": "senate",
+    "district": "11",
+    "party": "D",
+    "rcvSupport": "supportive",
+    "supportEvidence": [
+      {
+        "type": "vote_yes",
+        "date": "2024-02-20",
+        "description": "Voted YES on SB 428",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "senate-25",
+    "name": "Richard Stuart",
+    "chamber": "senate",
+    "district": "25",
+    "party": "R",
+    "rcvSupport": "opposed",
+    "supportEvidence": [
+      {
+        "type": "vote_no",
+        "date": "2024-02-20",
+        "description": "Voted NO on SB 428",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "senate-02",
+    "name": "Mark Obenshain",
+    "chamber": "senate",
+    "district": "2",
+    "party": "R",
+    "rcvSupport": "opposed",
+    "supportEvidence": [
+      {
+        "type": "vote_no",
+        "date": "2024-02-20",
+        "description": "Voted NO on SB 428",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-01",
+    "name": "Patrick Hope",
+    "chamber": "house",
+    "district": "1",
+    "party": "D",
+    "rcvSupport": "strong_support",
+    "supportEvidence": [
+      {
+        "type": "bill_sponsor",
+        "date": "2024-01-08",
+        "description": "Primary patron of HB 841 - Ranked Choice Voting",
+        "source": "https://lis.virginia.gov"
+      },
+      {
+        "type": "bill_cosponsor",
+        "date": "2020-01-15",
+        "description": "Co-patron of HB 1103 - RCV for local elections (signed into law)",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-55",
+    "name": "Sally Hudson",
+    "chamber": "house",
+    "district": "55",
+    "party": "D",
+    "rcvSupport": "strong_support",
+    "supportEvidence": [
+      {
+        "type": "bill_sponsor",
+        "date": "2020-01-08",
+        "description": "Primary patron of HB 1103 - RCV for local elections (signed into law Chapter 1054)",
+        "source": "https://lis.virginia.gov"
+      },
+      {
+        "type": "public_statement",
+        "date": "2023-09-15",
+        "description": "Leads Ranked Choice Virginia advocacy organization",
+        "source": "https://www.rankedchoiceva.org"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-65",
+    "name": "Joshua Cole",
+    "chamber": "house",
+    "district": "65",
+    "party": "D",
+    "rcvSupport": "strong_support",
+    "supportEvidence": [
+      {
+        "type": "bill_sponsor",
+        "date": "2024-01-08",
+        "description": "Primary patron of HB 658 - Ranked Choice Voting",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-13",
+    "name": "Marcus Simon",
+    "chamber": "house",
+    "district": "13",
+    "party": "D",
+    "rcvSupport": "supportive",
+    "supportEvidence": [
+      {
+        "type": "vote_yes",
+        "date": "2024-02-25",
+        "description": "Voted YES on SB 428 in House",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-38",
+    "name": "Sam Rasoul",
+    "chamber": "house",
+    "district": "38",
+    "party": "D",
+    "rcvSupport": "strong_support",
+    "supportEvidence": [
+      {
+        "type": "bill_cosponsor",
+        "date": "2020-01-15",
+        "description": "Co-patron of HB 1103 - RCV for local elections",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-78",
+    "name": "Betsy Carr",
+    "chamber": "house",
+    "district": "78",
+    "party": "D",
+    "rcvSupport": "supportive",
+    "supportEvidence": [
+      {
+        "type": "vote_yes",
+        "date": "2024-02-25",
+        "description": "Voted YES on SB 428 in House (54-44 passed)",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-81",
+    "name": "Delores McQuinn",
+    "chamber": "house",
+    "district": "81",
+    "party": "D",
+    "rcvSupport": "supportive",
+    "supportEvidence": [
+      {
+        "type": "vote_yes",
+        "date": "2024-02-25",
+        "description": "Voted YES on SB 428 in House",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-62",
+    "name": "Nick Freitas",
+    "chamber": "house",
+    "district": "62",
+    "party": "R",
+    "rcvSupport": "unknown",
+    "supportEvidence": [],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-98",
+    "name": "Barry Knight",
+    "chamber": "house",
+    "district": "98",
+    "party": "R",
+    "rcvSupport": "opposed",
+    "supportEvidence": [
+      {
+        "type": "vote_no",
+        "date": "2024-02-25",
+        "description": "Voted NO on SB 428 in House",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-45",
+    "name": "Terry Kilgore",
+    "chamber": "house",
+    "district": "45",
+    "party": "R",
+    "rcvSupport": "opposed",
+    "supportEvidence": [
+      {
+        "type": "vote_no",
+        "date": "2024-02-25",
+        "description": "Voted NO on SB 428 in House",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  },
+  {
+    "id": "house-88",
+    "name": "Don Scott",
+    "chamber": "house",
+    "district": "88",
+    "party": "D",
+    "rcvSupport": "supportive",
+    "supportEvidence": [
+      {
+        "type": "vote_yes",
+        "date": "2024-02-25",
+        "description": "Voted YES on SB 428 in House (Speaker)",
+        "source": "https://lis.virginia.gov"
+      }
+    ],
+    "contactInfo": {}
+  }
+]
